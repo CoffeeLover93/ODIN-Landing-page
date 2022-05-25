@@ -1,0 +1,128 @@
+body {
+    margin:0px;
+    min-height: 100vh;
+}
+
+.header {
+    background: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size:18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin:16px;
+}
+
+.upper {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px;
+    gap: 32px;
+}
+
+.title_text {
+    font-size: 48px;
+    font-weight: bold; 
+}
+
+.text1 {
+    font-size: 18px;
+}
+
+.button1 {
+    background: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.middle {
+    margin:64px;
+}
+
+.hero_title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    display:flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    margin: 24px 24px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6;
+    flex-shrink: 1;
+    border-radius: 25px;
+}
+
+.pair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.lower{
+    background: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end 
+}
+
+p {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.lower_link {
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size:18px;
+    margin: 24px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.footer {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
